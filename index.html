@@ -39,7 +39,7 @@
       background: linear-gradient(135deg, #8d2aff, #7000da);
       color: #fff;
       position: relative;
-      padding: 20px;
+      padding: 40px;
     }
 
     .page1 img {
@@ -86,6 +86,24 @@
       overflow-y: auto;
     }
 
+    .back-btn {
+      margin-top: 30px;
+      padding: 12px 25px;
+      font-size: 18px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      background: #fff;
+      color: #8d627f;
+      font-weight: bold;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
+
+    .back-btn:hover {
+      transform: scale(1.1);
+    }
+
     @media (min-width: 768px) {
       .page2 {
         font-size: 20px;
@@ -114,23 +132,27 @@
 
   <div class="container" id="container">
     <div class="page page1">
-      <h1>Say something to nongnina<br> </h1>
-        ???? error.exe <br>
+      <h1>????ɐuı̣uƃuou oʇ ƃuı̣ɥʇǝɯos ʎɐS<br>
+         ǝxǝ˙ɹoɹɹǝ  <br>
       </h1>
-      <button class="next-btn" onclick="nextPage()">errors ?&$(*</button>
+      <button class="next-btn" onclick="nextPage()">ȅ̶̮͓͔͚́̽́̊r̶͓̠̲̔̿̋̊̈́ȑ̵̥͓̮͉͉̌͒̈́̃ǒ̵̯̖͂̏ͅr̸̫̞̈̅͗̇͒š̷͙͎̯͐͛̚ ?҉̗͕͓̇́̍&̸̬̲͐́̾$̵̮̲̜̩̂̾̓̂̇</button>
     </div>
 
     <div class="page page2">
       <p>
-        ??erororrorros>>>^%!$$)()(*&^@@^#)????bug
-        ??.////##!!!!!________+_)&&(&%$&$@)
+        )@$⅋$%⅋(⅋⅋)‾+‾‾‾‾‾‾‾‾¡¡¡¡¡##////˙??        
+        ƃnq????)#^@@^⅋*()()$$¡%^>>>soɹɹoɹɹoɹoɹǝ??
       </p>
+      <button class="back-btn" onclick="backTomainPage()">?̷͔͓̒̓&̴͙̠͖͉́̉̾̄̚$̸̬̙̲͈̩͒͛̀̓̈e̴̠̘͖̩͂͐́r̷͍̞̿͂͌͋̚r̶̠͈̫̠̞͆͋̃̽͆o҉̭͈̜̱͋̅̂̚̚ȓ̸̩̘̬̍s̵̘̝͕̗͋̏(̴̘̦̯̄̿*̷̲͔́́̽</button>
     </div>
   </div>
 
   <script>
     function nextPage() {
       document.getElementById("container").style.transform = "translateX(-50%)";
+    }
+    function backTomainPage() {
+      document.getElementById("container").style.transform = "translateX(0)";
     }
   </script>
 </body>
